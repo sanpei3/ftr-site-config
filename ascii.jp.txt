@@ -1,0 +1,10 @@
+tidy: no
+prune: no
+
+title: //h1
+author: //p[contains(concat(' ',normalize-space(@class),' '),' author ')]
+date: //p[contains(concat(' ',normalize-space(@class),' '),' date ')]
+
+body: //div[@id='contents_detail']
+
+test_url: https://ascii.jp/elem/000/004/350/4350373/

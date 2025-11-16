@@ -1,0 +1,18 @@
+# not support multi page
+
+tidy: no
+prune: no
+
+# <div class="subscription">
+#body: //div[@class='subscription']
+#<div class="inner">
+body: //div[@class='inner']
+
+
+#<span id="next"><a href="news038_2.html">次のページへ</a></span>
+next_page_link: //span[@id="next"]/a
+
+#strip_id_or_class: cmsCopyright
+#strip_id_or_class: masterSocialbuttonBtm
+
+test_url: https://monoist.itmedia.co.jp/mn/articles/2511/04/news038.html
