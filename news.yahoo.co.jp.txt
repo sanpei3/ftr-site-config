@@ -1,0 +1,9 @@
+tidy: no
+prune: no
+
+body: //div[contains(concat(' ',normalize-space(@class),' '),' article_body ')]
+
+next_page_link: //a[@data-cl-params="_cl_vmodule:detail;_cl_link:prgrph;"]
+
+test_url: https://news.yahoo.co.jp/articles/6a461f63bef4fe1b6f994d822b75869142f9e856
+test_url: https://news.yahoo.co.jp/articles/1092e226a2d958a11f89cff51519680743674e23
