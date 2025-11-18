@@ -1,0 +1,9 @@
+
+author: //div[contains(concat(' ',normalize-space(@class),' '),' article-header-authors ')]
+date: substring-before(substring-after(//script[@type="application/ld+json"], '"datePublished":"'), '","publisher"')
+
+body: //div[@class="article-body"]
+
+next_page_link: //a[@class="article-induction__link"]
+
+test_url:https://shueisha.online/articles/-/255447
