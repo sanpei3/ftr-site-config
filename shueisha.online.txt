@@ -6,4 +6,4 @@ body: //div[@class="article-body"]
 
 next_page_link: //a[@class="article-induction__link"]
 
-test_url:https://shueisha.online/articles/-/255447
+test_url: https://shueisha.online/articles/-/255447
