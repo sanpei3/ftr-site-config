@@ -1,3 +1,4 @@
 next_page_link: //a[@class="article_pArticle_PagerTitle__Q_juz article_pArticle_PagerTitleNext__SpfOG"]
 
 test_url: https://www.businessinsider.jp/article/2511-mobile-4-carriers-strategy-analysis/
+test_url: https://www.businessinsider.jp/article/2511-canon-semiconductor-business/
