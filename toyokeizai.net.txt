@@ -1,10 +1,8 @@
-tidy: no
-prune: no
+#NG have to remove bottom part
 
 body: //div[contains(concat(' ',normalize-space(@class),' '),' article-body-inner ')]
 author: //div[contains(concat(' ',normalize-space(@class),' '),' author-date ')]//div[contains(concat(' ',normalize-space(@class),' '),' author ')]
 
 next_page_link: //div[@class="article-next-page business"]/a
 
-test_url: https://toyokeizai.net/articles/-/911972
 test_url: https://toyokeizai.net/articles/-/912773
