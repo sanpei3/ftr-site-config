@@ -1,0 +1,5 @@
+body: //div[@class="content-body-body article"]
+
+next_page_link: //a[@class="content-paging-next-block-button"]
+
+test_url: https://web.motormagazine.co.jp/_ct/17804185
