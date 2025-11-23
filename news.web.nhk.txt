@@ -1,0 +1,6 @@
+# not good body
+#body: //div[@style="--m7tod58:nowrap;--m7tod50:column;--m7tod51:column;--m7tod52:start;--m7tod53:start;--m7tod54:stretch;--m7tod55:stretch;--m7tod56:32px;--m7tod57:32px"]
+#body: //div[@class="esl7kn2s m7tod59"]
+body: //p[@class="_1i1d7sh2]
+
+test_url:https://news.web.nhk/newsweb/na/na-k10014983021000
