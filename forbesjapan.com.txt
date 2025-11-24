@@ -1,0 +1,16 @@
+# NG body
+#prune: no
+
+title: //h1[@class="article-tit"]
+
+# <div class="article-detail-txt detail"><div class=article-content85029><p>
+#body: //div[@class="article-detail-txt detail article-content85029"]
+body: substring-after(substring-after(//section[@class="article-detail"],  'article-detail-txt detail')[1], '<p>')
+#body: substring-after(//section[@class="article-detail"],  'article-detail-txt detail')
+
+#find_string:  article-detail-txt detail article-content
+#replace_string: article-detail-txt detail\"><div class=\"
+
+next_page_link: //div[@class="article-detail-btn-wrap article-detail-btn"]/a
+
+test_url: https://forbesjapan.com/articles/detail/85029
