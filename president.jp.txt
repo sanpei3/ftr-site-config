@@ -3,4 +3,4 @@ author: //li[contains(concat(' ',normalize-space(@class),' '),' articleInfo__ite
 body: //section[@class="article-body"]
 next_page_link: //a[@class="next"]
 
-test_url:https://president.jp/articles/-/80709 
+test_url: https://president.jp/articles/-/80709

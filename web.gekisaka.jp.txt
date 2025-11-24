@@ -1,3 +1,7 @@
+#NG have to remove bottom some links
+#NG have to add picture
 body: //div[@class="geki_contentitem"]
+
+title: substring-before(//meta[@property='og:title']/@content , ' | ゲキサカ')
 
 test_url: https://web.gekisaka.jp/news/japan/detail/?441149-441149-fl=

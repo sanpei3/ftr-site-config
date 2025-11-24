@@ -1,4 +1,3 @@
-tidy: no
 prune: no
 
 body: //div[@class="c-document c-document--theme-a u--padding-top-20 u--padding-horizontal-20 u--padding-horizontal-10-if-mobile"]

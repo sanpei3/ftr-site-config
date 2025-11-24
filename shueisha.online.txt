@@ -1,4 +1,4 @@
-
+#NG have to remove bottom related link
 author: //div[contains(concat(' ',normalize-space(@class),' '),' article-header-authors ')]
 date: substring-before(substring-after(//script[@type="application/ld+json"], '"datePublished":"'), '","publisher"')
 

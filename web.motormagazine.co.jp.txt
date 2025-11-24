@@ -1,3 +1,6 @@
+#NG have to remove some next_page_link strings
+#NG have to remove related article(bottom part), but there is no way to remove that part
+
 body: //div[@class="content-body-body article"]
 
 next_page_link: //a[@class="content-paging-next-block-button"]
