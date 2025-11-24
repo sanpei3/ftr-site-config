@@ -3,4 +3,5 @@
 #body: //div[@class="esl7kn2s m7tod59"]
 body: //p[@class="_1i1d7sh2]
 
-test_url:https://news.web.nhk/newsweb/na/na-k10014983021000
+test_url: https://news.web.nhk/newsweb/na/na-k10014983021000
+test_url: https://news.web.nhk/shutoken/articles/101/028/78/
