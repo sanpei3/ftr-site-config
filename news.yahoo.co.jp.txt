@@ -3,6 +3,8 @@ prune: no
 
 body: //div[contains(concat(' ',normalize-space(@class),' '),' article_body ')]
 
+title: substring-before(//meta[@property='og:title']/@content , ' - Yahoo!ニュース')
+
 next_page_link: //a[@data-cl-params="_cl_vmodule:detail;_cl_link:prgrph;"] | //a[@data-cl-params="_cl_vmodule:page;_cl_link:next;"]
 
 test_url: https://news.yahoo.co.jp/articles/6a461f63bef4fe1b6f994d822b75869142f9e856
