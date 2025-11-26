@@ -1,9 +1,9 @@
-#NG have to remove Advertisement
-#NG have to remove some next_page_link
-
 title: substring-before(//meta[@property='og:title']/@content , ' | Business Insider Japan')
 
-next_page_link: //a[@class="article_pArticle_PagerTitle__Q_juz article_pArticle_PagerTitleNext__SpfOG"]
+next_page_link: //a[contains(text(),"次ページ")]
+
+strip: //div[@class="article_pArticle_Pager__eR5iX bws-avoid"]
+strip: //div[@class="article_pArticle_Premium__apwYb bws-avoid"]
 
 test_url: https://www.businessinsider.jp/article/2511-mobile-4-carriers-strategy-analysis/
 test_url: https://www.businessinsider.jp/article/2511-canon-semiconductor-business/
