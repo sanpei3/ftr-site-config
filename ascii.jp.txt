@@ -1,12 +1,18 @@
-#NG missing picture(2nd and 3rd test_url)
-title: //h1
+#NG missing picture(2nd , 3rd 4th test_url)
+
+title: /html/body/div[1]/div/main/div[1]/div[2]/h1|/html/body/div[1]/div[2]/div[1]/div[3]/h1
+
 author: //p[contains(concat(' ',normalize-space(@class),' '),' author ')]
 
 body: //div[@id='contents_detail']
 date: translate(substring-before(substring-after(substring-after(//script[contains(text(), 'OpnDate')][1], 'OpnDate'),':'), ','), "'",'')
 
 next_page_link: //link[@rel="next"]
+next_page_link: //div[@class="pages"]/a[contains(text(),"次へ")]
+
+strip: //div[@class="relatedarticle"]
 
 test_url: https://ascii.jp/elem/000/004/350/4350373/
 test_url: https://ascii.jp/limit/group/ida/elem/000/004/353/4353258/
 test_url: https://ascii.jp/elem/000/004/353/4353850/?crank&rank=1
+test_url: https://ascii.jp/elem/000/004/340/4340906/
