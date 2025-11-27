@@ -1,0 +1,5 @@
+strip: //section[@class="relatedContent"]
+strip: //div[@class="text-body-lg"]
+strip: //p[@class="mt-1 text-body"]
+
+test_url: https://jp.motorsport.com/super-formula/news/sf-r12-kobayashi-on-2026-season/10779252/#goog_rewarded
