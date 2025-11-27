@@ -1,0 +1,4 @@
+#NG date
+author: //p[@class="author-area__name"]
+
+test_url: https://eng-blog.iij.ad.jp/archives/32658
