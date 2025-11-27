@@ -1,16 +1,18 @@
-# NG body
+#NG did not show first picture
 #prune: no
 
 title: //h1[@class="article-tit"]
 
-# <div class="article-detail-txt detail"><div class=article-content85029><p>
-#body: //div[@class="article-detail-txt detail article-content85029"]
-body: substring-after(substring-after(//section[@class="article-detail"],  'article-detail-txt detail')[1], '<p>')
-#body: substring-after(//section[@class="article-detail"],  'article-detail-txt detail')
-
-#find_string:  article-detail-txt detail article-content
-#replace_string: article-detail-txt detail\"><div class=\"
-
 next_page_link: //div[@class="article-detail-btn-wrap article-detail-btn"]/a
+
+
+strip: //section[@class="section-article-detail_magazine"]
+strip: //div[@class="articles-list-pager"]
+strip: //div[@class="article-detail-btn-wrap article-detail-btn"]
+strip: //div[@class="article-detail-tag"]
+strip: //div[@class="article-detail-follow follow_us"]
+strip: //div[@class="ad-head__tit"]
+strip: //div[@class="article-wall article-wall85029 c2"]
+strip: //div[@class="continue continue85029 cont-btn c2"]
 
 test_url: https://forbesjapan.com/articles/detail/85029
