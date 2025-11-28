@@ -1,10 +1,6 @@
-#NG did not show first picture
-#prune: no
-
 title: //h1[@class="article-tit"]
 
 next_page_link: //div[@class="article-detail-btn-wrap article-detail-btn"]/a
-
 
 strip: //section[@class="section-article-detail_magazine"]
 strip: //div[@class="articles-list-pager"]
