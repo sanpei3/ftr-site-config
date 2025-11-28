@@ -4,6 +4,9 @@ next_page_link: //a[contains(text(),"次ページ")]
 
 strip: //div[@class="article_pArticle_Pager__eR5iX bws-avoid"]
 strip: //div[@class="article_pArticle_Premium__apwYb bws-avoid"]
+strip: //div[@class="displayhandler_sm__stLxT"]
+strip: //div[@class="displayhandler_lg__cvCnu"]
 
 test_url: https://www.businessinsider.jp/article/2511-mobile-4-carriers-strategy-analysis/
 test_url: https://www.businessinsider.jp/article/2511-canon-semiconductor-business/
+test_url: https://www.businessinsider.jp/article/2511-google-company-turnaround-moment-reasons-ai-race-gemini/
