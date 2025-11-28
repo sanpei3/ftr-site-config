@@ -1,9 +1,12 @@
-#NG have to remove bottom related link
+title: substring-before(//meta[@property='og:title']/@content , '| 集英社オンライン')
 author: //div[contains(concat(' ',normalize-space(@class),' '),' article-header-authors ')]
 date: substring-before(substring-after(//script[@type="application/ld+json"], '"datePublished":"'), '","publisher"')
 
 body: //div[@class="article-body"]
 
 next_page_link: //a[@class="article-induction__link"]
+
+strip: //h1[@class="gallery-ttl"]
+strip://title
 
 test_url: https://shueisha.online/articles/-/255447
