@@ -1,8 +1,11 @@
-#NG have to remove bottom part
-
 body: //div[contains(concat(' ',normalize-space(@class),' '),' article-body-inner ')]
 author: //div[contains(concat(' ',normalize-space(@class),' '),' author-date ')]//div[contains(concat(' ',normalize-space(@class),' '),' author ')]
 
 next_page_link: //div[@class="article-next-page business"]/a
+
+strip: //div[@class="article-end-authors"]
+strip: //div[@class="article-box-gwrap"]
+strip: //p[@class="author-follow-link"]
+strip: //div[@class="m-tooltip-wrap"]
 
 test_url: https://toyokeizai.net/articles/-/912773
