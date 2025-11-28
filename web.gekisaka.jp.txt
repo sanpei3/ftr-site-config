@@ -1,5 +1,3 @@
-#NG have to remove bottom some links
-#NG have to add picture
 body: //div[@class="geki_contentitem"]
 
 title: substring-before(//meta[@property='og:title']/@content , ' | ゲキサカ')
