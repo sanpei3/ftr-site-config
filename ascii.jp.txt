@@ -1,4 +1,6 @@
-#NG missing picture(2nd , 3rd 4th test_url)
+#NG missing picture
+#prune: no
+#tidy:no
 
 title: /html/body/div[1]/div/main/div[1]/div[2]/h1|/html/body/div[1]/div[2]/div[1]/div[3]/h1
 
@@ -11,6 +13,9 @@ next_page_link: //link[@rel="next"]
 next_page_link: //div[@class="pages"]/a[contains(text(),"次へ")]
 
 strip: //div[@class="relatedarticle"]
+strip: //h5[@class="serial"]
+strip: //ul[@class="artsCont"]
+strip: //p[@class="returnCat"]
 
 test_url: https://ascii.jp/elem/000/004/350/4350373/
 test_url: https://ascii.jp/limit/group/ida/elem/000/004/353/4353258/
