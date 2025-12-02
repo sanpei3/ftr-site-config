@@ -1,4 +1,4 @@
-#NG Title
+#NG Title(multiple ld+json fields)
 
 title: substring-before(substring-after(//script[@type="application/ld+json"], '"headline":"'), '","url":')
 body: //div[@id="gendai-articleContents"]
