@@ -1,6 +1,5 @@
 #NG missing picture
-#prune: no
-#tidy:no
+# because img is inner <div class="photo single">
 
 title: /html/body/div[1]/div/main/div[1]/div[2]/h1|/html/body/div[1]/div[2]/div[1]/div[3]/h1
 
@@ -16,6 +15,11 @@ strip: //div[@class="relatedarticle"]
 strip: //h5[@class="serial"]
 strip: //ul[@class="artsCont"]
 strip: //p[@class="returnCat"]
+
+find_string: <div class="photo single">
+replace_string: <h2><div class="photo single">
+
+tidy: no
 
 test_url: https://ascii.jp/elem/000/004/350/4350373/
 test_url: https://ascii.jp/limit/group/ida/elem/000/004/353/4353258/
