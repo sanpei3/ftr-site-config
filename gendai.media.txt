@@ -1,5 +1,4 @@
 #NG Title(multiple ld+json fields)
-#NG mising h2 body
 
 title: substring-before(substring-after(//script[@type="application/ld+json"], '"headline":"'), '","url":')
 body: //div[@id="gendai-articleContents"]
@@ -8,5 +7,7 @@ next_page_link: //a[@data-testid="pagination-next-page-link"]
 
 strip: //figcaption
 strip: //a[@class="leading-0 !text-link inline-flex min-h-10 items-center border border-[#a1a1a1] px-6 py-2 text-sm !font-normal"]
+
+replace_string(h2>): h3>
 
 test_url: https://gendai.media/articles/-/160916
