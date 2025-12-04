@@ -1,3 +1,4 @@
+#NG missing picture(4th content)
 title: substring-before(//meta[@property='og:title']/@content , ' | Business Insider Japan')
 
 next_page_link: //a[contains(text(),"次ページ")]
@@ -10,3 +11,5 @@ strip: //div[@class="displayhandler_lg__cvCnu"]
 test_url: https://www.businessinsider.jp/article/2511-mobile-4-carriers-strategy-analysis/
 test_url: https://www.businessinsider.jp/article/2511-canon-semiconductor-business/
 test_url: https://www.businessinsider.jp/article/2511-google-company-turnaround-moment-reasons-ai-race-gemini/
+test_url: https://www.businessinsider.jp/article/2511-google-deepmind-cracks-century-old-physics-mystery-ai-fluid-dynamics/
+test_url: https://www.businessinsider.jp/article/2511-ai-bubble-dot-com-crash-data-centers-infrastructure-jeremy-siegel/
