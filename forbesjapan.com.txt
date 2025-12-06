@@ -4,11 +4,11 @@ next_page_link: //div[@class="article-detail-btn-wrap article-detail-btn"]/a
 
 strip: //section[@class="section-article-detail_magazine"]
 strip: //div[@class="articles-list-pager"]
-strip: //div[@class="article-detail-btn-wrap article-detail-btn"]
 strip: //div[@class="article-detail-tag"]
-strip: //div[@class="article-detail-follow follow_us"]
 strip: //div[@class="ad-head__tit"]
-strip: //div[@class="article-wall article-wall85029 c2"]
-strip: //div[@class="continue continue85029 cont-btn c2"]
+strip: //div[contains(@class, 'article-detail-btn-wrap')]
+strip: //div[contains(@class, 'article-detail-follow')]
+strip: //div[contains(@class, 'article-wall85029')]
+strip: //div[contains(@class, 'continue')]
 
 test_url: https://forbesjapan.com/articles/detail/85029
