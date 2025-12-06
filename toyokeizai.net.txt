@@ -1,7 +1,7 @@
 body: //div[contains(concat(' ',normalize-space(@class),' '),' article-body-inner ')]
 author: //div[contains(concat(' ',normalize-space(@class),' '),' author-date ')]//div[contains(concat(' ',normalize-space(@class),' '),' author ')]
 
-next_page_link: //div[@class="article-next-page business"]/a
+next_page_link: //div[contains(@class, "article-next-page")]/a
 
 strip: //div[@class="article-end-authors"]
 strip: //div[@class="article-box-gwrap"]
