@@ -6,3 +6,4 @@ strip: //div[@class="content-paging-next-block"]
 strip: //div[contains(@class, "cite-box")]
 
 test_url: https://web.motormagazine.co.jp/_ct/17804185
+test_url: https://web.motormagazine.co.jp/_ct/17772375
