@@ -1,3 +1,4 @@
+#NG some error No.2
 title: //h1[@class="article-tit"]
 
 next_page_link: //div[@class="article-detail-btn-wrap article-detail-btn"]/a
@@ -12,3 +13,4 @@ strip: //div[contains(@class, 'article-wall85029')]
 strip: //div[contains(@class, 'continue')]
 
 test_url: https://forbesjapan.com/articles/detail/85029
+test_url: https://forbesjapan.com/articles/detail/86154
