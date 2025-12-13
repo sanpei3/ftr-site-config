@@ -1,0 +1,4 @@
+#NG not completed
+body: //div[@class="content-area"]
+
+test_url: https://www.tokyo-np.co.jp/article/454831
