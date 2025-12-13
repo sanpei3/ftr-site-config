@@ -3,9 +3,9 @@ title: substring-before(//meta[@property='og:title']/@content , ' | Business Ins
 
 next_page_link: //a[contains(text(),"次ページ")]
 
-strip: //div[contains(@class, 'bws-avoid')]
-strip: //div[@class="displayhandler_sm__stLxT"]
-strip: //div[@class="displayhandler_lg__cvCnu"]
+strip_id_or_class: bws-avoid
+strip_id_or_class: displayhandler_sm__stLxT
+strip_id_or_class: displayhandler_lg__cvCnu
 
 test_url: https://www.businessinsider.jp/article/2511-mobile-4-carriers-strategy-analysis/
 test_url: https://www.businessinsider.jp/article/2511-canon-semiconductor-business/
