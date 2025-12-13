@@ -3,10 +3,10 @@ title: //h1[@class="article-tit"]
 
 next_page_link: //div[@class="article-detail-btn-wrap article-detail-btn"]/a
 
-strip: //section[@class="section-article-detail_magazine"]
-strip: //div[@class="articles-list-pager"]
-strip: //div[@class="article-detail-tag"]
-strip: //div[@class="ad-head__tit"]
+strip_id_or_class: section-article-detail_magazine
+strip_id_or_class: articles-list-pager
+strip_id_or_class: article-detail-tag
+strip_id_or_class: ad-head__tit
 strip: //div[contains(@class, 'article-detail-btn-wrap')]
 strip: //div[contains(@class, 'article-detail-follow')]
 strip: //div[contains(@class, 'article-wall85029')]
