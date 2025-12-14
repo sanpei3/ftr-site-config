@@ -1,0 +1,6 @@
+#NG if go to next page, need to read advertise(need ?all=1)
+body: //article[@class="l-contents__article"]
+
+next_page_link: //a[@class="c-text-next__link"]
+
+test_url: https://www.dailyshincho.jp/article/2025/12140500/?all=1
