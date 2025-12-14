@@ -1,7 +1,7 @@
 title: substring-before(//meta[@property='og:title']/@content , ' | XenoSpectrum')
 
 strip: //hr[contains(@class, "wp-block-separator")]
-strip: //ul[@class="wp-block-list"]
+strip_id_or_class: wp-block-list
 strip: //div[contains(@class, "addtoany_content")]
 strip: //div[contains(@class, "xenos-adlabel")]
 strip: //strong[contains(., 'Sources')]
