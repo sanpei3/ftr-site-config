@@ -6,10 +6,9 @@ date: substring-before(substring-after(//script[@type="application/ld+json"], '"
 body: //div[@class="article-body"]
 
 next_page_link: //a[@class="article-induction__link"]
-next_page_link: //a[@class="article-manga-btn"]
 
 strip_id_or_class: gallery-ttl
 strip: //title
 
 test_url: https://shueisha.online/articles/-/255447
-test_url: https://shueisha.online/articles/-/255729
+test_url: https://shueisha.online/articles/-/251195
