@@ -1,7 +1,7 @@
 #NG Title(multiple ld+json fields)
 
 title: substring-before(substring-after(//script[@type="application/ld+json"], '"headline":"'), '","url":')
-body: //div[@id="gendai-articleContents"]
+body: //div[contains(concat(' ',normalize-space(@class),' '),' gendai-articleContents ')]
 
 next_page_link: //a[@data-testid="pagination-next-page-link"]
 
@@ -12,3 +12,4 @@ replace_string(h2>): h3>
 
 test_url: https://gendai.media/articles/-/160916
 test_url: https://gendai.media/articles/-/151783
+test_url: https://gendai.media/articles/-/160153
