@@ -1,6 +1,4 @@
-#NG Title(multiple ld+json fields)
-
-title: substring-before(substring-after(//script[@type="application/ld+json"], '"headline":"'), '","url":')
+title: substring-before( //title/text() , '| ' )
 body: //div[contains(concat(' ',normalize-space(@class),' '),' gendai-articleContents ')]
 
 next_page_link: //a[@data-testid="pagination-next-page-link"]
