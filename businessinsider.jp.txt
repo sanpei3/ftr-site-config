@@ -1,5 +1,6 @@
-#NG missing picture(4th content)
 title: substring-before(//meta[@property='og:title']/@content , ' | Business Insider Japan')
+
+body: //div[contains(concat(' ',normalize-space(@class),' '),' article_pArticle_Body ')]
 
 next_page_link: //a[contains(text(),"次ページ")]
 
