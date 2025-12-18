@@ -1,4 +1,3 @@
-#NG No.2 test_url, not show page3
 title: substring-before(//meta[@property='og:title']/@content , '| 集英社オンライン')
 author: //div[contains(concat(' ',normalize-space(@class),' '),' article-header-authors ')]
 date: substring-before(substring-after(//script[@type="application/ld+json"], '"datePublished":"'), '","publisher"')
@@ -10,5 +9,7 @@ next_page_link: //a[@class="article-induction__link"]
 strip_id_or_class: gallery-ttl
 strip: //title
 
+prune: no
+
 test_url: https://shueisha.online/articles/-/255447
-test_url: https://shueisha.online/articles/-/251195
+test_url: https://shueisha.online/articles/-/256026
