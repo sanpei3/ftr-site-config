@@ -1,6 +1,19 @@
 #NG if go to next page, need to read advertise(need ?all=1)
+# with single_page_link url change to ?all=1, but need reload
+# NO photo(just copy html into sanpei.org and same .txt file, photo is OK.....)
+title: substring-before(//meta[@property='og:title']/@content , ' | デイリー新潮')
+
 body: //article[@class="l-contents__article"]
 
 next_page_link: //a[@class="c-text-next__link"]
 
+strip_id_or_class: c-text-date
+strip_id_or_class: c-text-next
+strip_id_or_class: c-text-page
+strip_id_or_class: p-pagination
+
+replace_string(<h2): <p
+replace_string(</h2>): </p>
+
 test_url: https://www.dailyshincho.jp/article/2025/12140500/?all=1
+test_url: https://www.dailyshincho.jp/article/2025/12171550/?all=1
