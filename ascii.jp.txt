@@ -16,6 +16,9 @@ strip_id_or_class: returnCat
 find_string: <div class="photo single">
 replace_string: <div dummyclass="photo single">
 
+replace_string(<h2): <h3
+replace_string(</h2>): </h3>
+
 tidy: no
 
 test_url: https://ascii.jp/elem/000/004/350/4350373/
