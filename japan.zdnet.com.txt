@@ -1,0 +1,6 @@
+#NG next page is needed login
+body: //div[@class="article-contents"]
+
+next_page_link: //a[@data-ga_category="zd_article_pagination"]
+
+test_url: https://japan.zdnet.com/article/35241912/

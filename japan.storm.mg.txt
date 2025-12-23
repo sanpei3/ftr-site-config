@@ -1,0 +1,7 @@
+#NG body, date, author
+date: substring-before(substring-after(//script[@type="application/ld+json"], '"datePublished":"'), '","description')
+body: substring-before(substring-after(//script[@type="application/ld+json"], '"articleBody":"'), '","articleSection')
+
+prune: no
+
+test_url: https://japan.storm.mg/articles/1089496
