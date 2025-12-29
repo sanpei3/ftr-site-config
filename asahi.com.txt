@@ -1,3 +1,4 @@
+#NG not yet tested free contents
 body: //main[@role='main']
 
 test_url: https://www.asahi.com/articles/ASTCW0PWKTCWULFA00FM.html

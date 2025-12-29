@@ -1,6 +1,6 @@
 #NG not good body maybe, article is need to login?
 # no need to for login site?
-date: //time/dateTime
+#date: //time/dateTime
 #body: //p[@class="_1i1d7sh2]
 
 test_url: https://news.web.nhk/shutoken/articles/101/028/78/

@@ -1,4 +1,3 @@
-#NG check 2nd 3rd article
 title: substring-before(//meta[@property='og:title']/@content , ' | JBpress (ジェイビープレス)')
 date: substring-before(substring-after(//script[@type="application/ld+json"], '"datePublished":"'), '","dateModified')
 author: substring-before(substring-after(//script[@type="application/ld+json"], '"@type":"Person","name":"'), '","jobTitle":')
