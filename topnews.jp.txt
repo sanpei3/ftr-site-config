@@ -1,3 +1,4 @@
+#NG test other pages
 body: //div[@class="column-680"]
 
 strip: //tbody

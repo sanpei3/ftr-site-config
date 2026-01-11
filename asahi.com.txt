@@ -1,4 +1,5 @@
-#NG not yet tested free contents
+#NG No.2 test_url, remove bottom part text
 body: //main[@role='main']
 
 test_url: https://www.asahi.com/articles/ASTCW0PWKTCWULFA00FM.html
+test_url: https://digital.asahi.com/articles/ASTDZ4CMVTDZUTIL03CM.html
