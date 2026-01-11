@@ -1,5 +1,10 @@
-#NG No.2 test_url, remove bottom part text
+#NG author NG
+author: substring-before(substring-after(//script[@type="application/ld+json"], '"creator":["'), '"],')
+
 body: //main[@role='main']
 
-test_url: https://www.asahi.com/articles/ASTCW0PWKTCWULFA00FM.html
+strip_id_or_class: mhPng
+strip_id_or_class: NbZMW
+strip: //div[@x-component-name="WriterProfile"]
+
 test_url: https://digital.asahi.com/articles/ASTDZ4CMVTDZUTIL03CM.html
