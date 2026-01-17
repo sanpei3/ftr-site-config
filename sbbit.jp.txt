@@ -1,0 +1,6 @@
+#NG next page is needed login
+body:  //section[@class="ar-cont"]
+
+next_page_link: //a[@class="ar-next-page-link"]
+
+test_url: https://www.sbbit.jp/article/cont1/165190
