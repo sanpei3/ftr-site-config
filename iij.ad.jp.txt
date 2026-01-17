@@ -1,0 +1,2 @@
+#NG moji Bake
+test_url: https://www.iij.ad.jp/dev/report/iir/068/02.html
