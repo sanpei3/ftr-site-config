@@ -1,6 +1,3 @@
-#NG author NG
-author: substring-before(substring-after(//script[@type="application/ld+json"], '"creator":["'), '"],')
-
 body: //main[@role='main']
 
 strip_id_or_class: mhPng
