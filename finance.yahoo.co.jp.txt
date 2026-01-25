@@ -1,4 +1,3 @@
-#NG TEST other pages
 body: //div[@class="textArea__2DbL"]
 
 test_url: https://finance.yahoo.co.jp/news/detail/d4e82a5f88adcb2b221a0eca16d1f85f3670898d
