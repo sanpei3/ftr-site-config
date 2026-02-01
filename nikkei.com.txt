@@ -1,4 +1,3 @@
-#NG NO author
 body: //section[@class='container_campx13']
 body: //main/article[1]/section[1]
 
