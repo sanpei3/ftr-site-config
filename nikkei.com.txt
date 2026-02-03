@@ -1,3 +1,7 @@
+#NG not apply title and date with wallabagger...??
+# maybe wallabagger put title and date field(none) but not must fill those filed
+date: substring-before(substring-after(//script[@type="application/json"], '"datePublished":"'), '","')
+
 body: //section[@class='container_campx13']
 body: //main/article[1]/section[1]
 
