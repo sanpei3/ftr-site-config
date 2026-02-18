@@ -1,0 +1,14 @@
+#NG author, Italic表記Z
+
+body: //div[contains(concat(' ',normalize-space(@class),' '),' article-body ')]
+
+next_page_link: //a[@class="article-body-guide"]
+
+strip: //a[@class="article-body-guide"]
+strip: //div[contains(concat(' ',normalize-space(@class),' '),' m-acc ')]
+strip: //div[contains(concat(' ',normalize-space(@class),' '),' m-pagination ')]
+
+strip_id_or_class: article-tags
+
+test_url: https://dot.asahi.com/aerakids/articles/-/274073
+test_url: https://dot.asahi.com/aerakids/articles/-/274981?page=1
