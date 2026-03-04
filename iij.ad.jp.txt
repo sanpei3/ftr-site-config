@@ -1,2 +1,13 @@
-#NG moji Bake
+#NG moji Bake, this file is include BOM
+
+# タイトルと本文の抽出設定
+body: //div[@class='article-body']
+
+# 2. TidyはBOM付きファイルでは悪影響を及ぼすことが多いため必ず 'no'
+#tidy: no
+
+# 4. 万が一、BOMのせいで head が壊れた場合のための予備
+find_string: <head>
+replace_string: <head><meta charset="utf-8">
+
 test_url: https://www.iij.ad.jp/dev/report/iir/068/02.html
