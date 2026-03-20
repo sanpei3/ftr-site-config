@@ -1,4 +1,4 @@
-#NG date
-author: //p[@class="author-area__name"]
+#NG date, NG author
+author: //p[@class="author-area__name"]//p[@class="author-area__date"]
 
 test_url: https://eng-blog.iij.ad.jp/archives/32658
